@@ -6,56 +6,52 @@
 	<title></title>
 </head>
 <body>
-	<div class="center" id="nav">
-		<ul>
-			<li id="name">Jonathan Arellano</li>
-			<li class="nav-links"><a href="index.html">About</a></li>
-			<li class="nav-links"><a href="portfolio.html">Portfolio</a></li>
-			<li class="nav-links"><a href="contact.html">Contact</a></li>
-		</ul>
-		<nav>
-			<a href="/html/">About</a> |
-			<a href="/css/">Portfolio</a> |
-			<a href="/js/">Contact</a> |
-			<a href="/jquery/">jQuery</a>
-		</nav>
-	</div>
-	
-	<div class="center">
-
-		<div class="main-content" id="main-section">
-			<div class="content-header">
-				<h1>Contact</h1>
-			</div>
-			<div id="section-content">
-				<form>
-					Name<br>
-					<input type="text" name="Name" placeholder="John Smith"><br>
-					Email<br>
-					<input type="text" name="Email" placeholder="example@gmail.com"><br>
-					Message<br>
-					<textarea name="message"></textarea><br>
-					<input type="submit" name="Submit">
-				</form>
-			</div>
+	<div class="wrapper">
+		<div id="header-container">
+			<header>
+				<div id="name">Jonathan Arellano</div>
+				<nav>
+					<a href="index.html">About</a>   |  
+					<a href="portfolio.html">Portfolio</a>   | 
+					<a href="contact.html">Contact</a>
+				</nav>
+			</header>
 		</div>
+		
+		<main>
 
-		<div class="main-content" id="sidebar">
-			<div  id="main-header">
-				<h2>Connect with Me</h2>
+			<div id="main-content">
+				<div class="content-header">
+					<h2>Contact</h2>
+				</div>
+				<div class="content-body">
+					<img src="assets/images/profile-pic.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 			</div>
-			<div id="section-content">
-				<ul>
-					<li><a href="www.github.com"><img src="https://placeimg.com/40/40/any" alt="GitHub"></a></li>
-					<li><a href="#linkedin"><img src="https://placeimg.com/40/40/any" alt="LinkedIn"></a></li>
-					<li ><a href="#stackoverflow"><img src="https://placeimg.com/40/40/any" alt="StackOverflow"></a></li>
-				</ul>
-			</div>
-		</div>
+
+			<aside>
+				<div class="sidebar-header">
+					<h3>Connect with Me</h3>
+				</div>
+				<div id="thumbs">
+					<a href="https://www.github.com/jarellano01"><img src="assets/images/GitHub Icon.png" alt="GitHub"></a>
+					<a href="https://www.linkedin.com/in/jonathan-arellano-85749b5b"><img src="assets/images/LinkedIn Icon.png" alt="LinkedIn"></a>
+					<a href="http://stackoverflow.com/users/4114818/jonathan-arellano?tab=profile"><img src="assets/images/StackOverflow Icon.png" alt="StackOverflow"></a>
+					<span class="stretch"></span>
+				</div>
+			</aside>
+		</main>
+		<div class="push"></div>
 	</div>
-	<div id="footer">
+	<footer>
 		<p>&copy;Copyright 2016 Jonathan Arellano</p>
-	</div>
+	</footer>
 	
 	
 </body>
