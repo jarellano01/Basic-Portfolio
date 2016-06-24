@@ -170,3 +170,45 @@ footer, .push {
 	min-height: 100%;
 	margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
 }
+
+/* portfolio */
+.portfolio-item {
+	position: relative;
+	width: 268px;
+	height: 200px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 0px;
+	margin-left: 48px;
+	margin-bottom: 55px;
+
+}
+.portfolio-item img {
+	width: 100%;
+	height: 100%;
+}
+.portfolio-item p {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding-top: 15px;
+	color: #ffffff;
+	height: 50px;
+}
+.portfolio-wrapper {
+	margin-right: -48px;
+	margin-left: -48px;
+}
+
+/* link properties */
+
+a:hover {
+	color: #4aaaa5;
+}
+a:active {
+	color: #46b771;
+}
