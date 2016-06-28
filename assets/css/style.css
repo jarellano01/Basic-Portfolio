@@ -11,6 +11,8 @@ img {
 
 #name {
 	font-size: 30px;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 header nav {
@@ -20,16 +22,31 @@ header nav {
 	color: #CCCCCC;
 	padding-top: 40px;
 }
-a {
+#nav {
+	background-color: white;
+	float: right;
+}
+#nav a {
 	text-decoration: none;
 	color: #777777;
+	border-right: 2px solid #777777;
+	text-align: center;
+	padding-right: 24px;
+	padding-left: 24px;
 }
+
+#nav a:last-child {
+	border-right: none;
+	padding-right: 0;
+}
+
 header div {
 	display: inline-block;
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	padding: 35px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 header {
 	width: 960px;
@@ -202,6 +219,7 @@ footer, .push {
 .portfolio-wrapper {
 	margin-right: -48px;
 	margin-left: -48px;
+	overflow: auto;
 }
 
 /* link properties */
