@@ -1,6 +1,7 @@
 img {
 	height: 60px;
 	width: 60px;
+	vertical-align: bottom;
 }
 
 #header-container {
@@ -220,6 +221,7 @@ footer, .push {
 	margin-right: -48px;
 	margin-left: -48px;
 	overflow: auto;
+	
 }
 
 /* link properties */
