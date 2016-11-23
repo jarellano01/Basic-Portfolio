@@ -6,4 +6,4 @@ This website was just a basic html template for testing out various html feature
 ## Live Website
 The live website can be found in the link below:
 
-https://jarellano01.github.io/Basic-Portfolio
+https://jarellano01.github.io/ja_basic-portfolio
